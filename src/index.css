@@ -3,6 +3,7 @@
 @import 'tailwindcss/utilities';
 
 body {
+  background-color: rgb(54, 54, 54);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,6 +19,11 @@ code {
 
 
 .driverbackground {
+color: whitesmoke;
+  
   background-image: url(
-  assets/driverbackground.jpeg);
+  assets/driverbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
 }

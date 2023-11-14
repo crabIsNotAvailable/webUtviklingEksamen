@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 // Adjust the relative path based on your project structure
 import DriverPage from "./pages/DriverPage";
+import TeamPage from "./pages/TeamPage";
 
 function App() {
   return (
@@ -10,13 +11,15 @@ function App() {
         <nav className="navbar">
           <ul className="navbar__menu">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/driver">Driver Page</Link></li>
+            <li><Link to="/driver">Drivers</Link></li>
+            <li><Link to="/teams">Teams</Link></li>
           </ul>
         </nav>
 
         <Routes>
           <Route path="/" element={<div>Home Page</div>} />
           <Route path="/driver" element={<DriverPage />} />
+          <Route path="/teams" element={<TeamPage />} />
           <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </BrowserRouter>

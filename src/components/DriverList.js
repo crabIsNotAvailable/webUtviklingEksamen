@@ -35,13 +35,14 @@ const DriverList = ({ drivers, setDrivers }) => {
     };
 
     return (
-        <div className="bg-gray-500 p-4">
-            <h1 className="text-white text-xl mb-4">Drivers</h1>
+        <div>
+        <h1 className="text-white text-xl mb-4">Drivers</h1>
+            <div className="grid grid-cols-3  p-4">
             {drivers.map((driver) => (
-                <div class="driverbackground" key={driver.id}>
+                <div key={driver.id}>
                     <DriverItem driver={driver}></DriverItem>
                     <button
-                        className="bg-red-500 hover:bg-red-700 text-white font-bold rounded px-4 py-2"
+                        className= " bg-red-500 hover:bg-red-700 text-white font-bold rounded px-4 py-2"
                         onClick={() => handleDeleteDriver(driver.id)}
                     >
                         Delete
@@ -58,6 +59,8 @@ const DriverList = ({ drivers, setDrivers }) => {
                 </div>
             ))}
             {!drivers.length && <p className="text-red-500 text-lg mt-2">No driver found</p>}
+        
+        </div>
         </div>
     );
 };
