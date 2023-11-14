@@ -1,7 +1,9 @@
 import axios from "axios";
+import DriverService from "./DriverService";
 
 const TeamService = (() => {
   const team_url = "http://localhost:5126/api/teams";
+  const driver_url = "http://localhost:5126/api/drivers";
 
   const addTeam = async (newTeam) => {
   try {
@@ -47,12 +49,43 @@ const getTeamById = async (id) => {
   }
 };
 
+const getDriverImage = async (teamName) => {
+  try {
+    const responseTeam = await axios.get(`${team_url}/${teamName}`);
+    const responseDriver = await axios.get(`${driver_url}/team/${teamName}`);
+
+    if (responseTeam.data && responseDriver.data) {
+      return responseDriver.data;
+    } else {
+      console.error("Team or driver not found");
+      return null;
+    }
+  } catch (error) {
+    console.error("Error fetching data", error);
+    return null;
+  }
+};
+
+const getDriversByTeam = async (teamName) => {
+  try {
+    // Fetch drivers directly based on the team name
+    const responseDrivers = await axios.get(`${driver_url}?team=${teamName}`);
+    
+    return responseDrivers.data;
+  } catch (error) {
+    console.error('Error fetching drivers by team', error);
+    return [];
+  }
+};
+
 return {
   addTeam,
   deleteTeam,
   updateTeam,
   getAllTeams,
-  getTeamById
+  getTeamById,
+  getDriverImage,
+  getDriversByTeam
 }
 })();
 

@@ -7,6 +7,8 @@ const DriverList = ({ drivers, setDrivers }) => {
     const [updatedDriverId, setUpdatedDriverId] = useState({});
     const [isUpdateVisible, setIsUpdateVisible] = useState(false);
 
+
+    
     const handleDeleteDriver = async (id) => {
         try {
             await DriverService.deleteDriver(id);
