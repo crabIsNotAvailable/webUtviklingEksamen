@@ -1,0 +1,149 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Albon.png",
+      "PackagePath": "staticwebassets/images/Albon.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Alfa_Romeo.png",
+      "PackagePath": "staticwebassets/images/Alfa_Romeo.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Alonso.png",
+      "PackagePath": "staticwebassets/images/Alonso.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/AlphaTauri.png",
+      "PackagePath": "staticwebassets/images/AlphaTauri.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Alpine.png",
+      "PackagePath": "staticwebassets/images/Alpine.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Aston_Martin.png",
+      "PackagePath": "staticwebassets/images/Aston_Martin.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Bottas.png",
+      "PackagePath": "staticwebassets/images/Bottas.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/De_Vries.png",
+      "PackagePath": "staticwebassets/images/De_Vries.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Ferrari.png",
+      "PackagePath": "staticwebassets/images/Ferrari.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Gasly.png",
+      "PackagePath": "staticwebassets/images/Gasly.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Haas_F1_Team.png",
+      "PackagePath": "staticwebassets/images/Haas_F1_Team.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Hamilton.png",
+      "PackagePath": "staticwebassets/images/Hamilton.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Hulkenberg.png",
+      "PackagePath": "staticwebassets/images/Hulkenberg.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Lawson.png",
+      "PackagePath": "staticwebassets/images/Lawson.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Leclerc.png",
+      "PackagePath": "staticwebassets/images/Leclerc.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Magnussen.png",
+      "PackagePath": "staticwebassets/images/Magnussen.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/McLaren.png",
+      "PackagePath": "staticwebassets/images/McLaren.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Mercedes.png",
+      "PackagePath": "staticwebassets/images/Mercedes.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Norris.png",
+      "PackagePath": "staticwebassets/images/Norris.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Ocon.png",
+      "PackagePath": "staticwebassets/images/Ocon.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Perez.png",
+      "PackagePath": "staticwebassets/images/Perez.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Piastri.png",
+      "PackagePath": "staticwebassets/images/Piastri.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Red_Bull_Racing.png",
+      "PackagePath": "staticwebassets/images/Red_Bull_Racing.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Ricciardo.png",
+      "PackagePath": "staticwebassets/images/Ricciardo.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Russell.png",
+      "PackagePath": "staticwebassets/images/Russell.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Sainz.png",
+      "PackagePath": "staticwebassets/images/Sainz.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Sargeant.png",
+      "PackagePath": "staticwebassets/images/Sargeant.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Stroll.png",
+      "PackagePath": "staticwebassets/images/Stroll.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Tsunoda.png",
+      "PackagePath": "staticwebassets/images/Tsunoda.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Verstappen.png",
+      "PackagePath": "staticwebassets/images/Verstappen.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Williams.png",
+      "PackagePath": "staticwebassets/images/Williams.png"
+    },
+    {
+      "Id": "/Users/felipe/Desktop/EksamenWU/Formula1Api/wwwroot/images/Zhou.png",
+      "PackagePath": "staticwebassets/images/Zhou.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Formula1Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Formula1Api.props",
+      "PackagePath": "build\\Formula1Api.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Formula1Api.props",
+      "PackagePath": "buildMultiTargeting\\Formula1Api.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Formula1Api.props",
+      "PackagePath": "buildTransitive\\Formula1Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
