@@ -11,9 +11,11 @@ const TeamItem = ({ team }) => {
         <p className="text-xl font-serif font-bold">{team.name}</p>
         <p className="text-sm font-bold text-yellow-400 font-mono">{team.team}</p>
       </div>
+      <img src="assets/DriverSilhouette.png" alt="Silhouette of a driver" width="500" height="600"></img>
       <div className="w-60 h-32">
         {team.imageName && <img src={`${image_url}/${team.imageName}`} alt={`Team ${team.id}`} />}
       </div>
+      <h3>Points: {team.points}</h3>
     </div>
   );
 };
