@@ -37,6 +37,16 @@ const DriverService = (() => {
         }
     };
 
+    const getDriversByTeam = async (team) => {
+        try {
+            const response = await axios.get(`${driver_url}/byteam/${team}`);
+            return response.data;
+        } catch (error) {
+            console.error("Error fetching driver image for team", team, error);
+            return [];
+        }
+    }
+
     const getDriverById = async (id) => {
         try {
             const response = await axios.get(`${driver_url}/${id}`);
@@ -53,6 +63,7 @@ const DriverService = (() => {
         deleteDriver,
         updateDriver,
         getAllDrivers,
+        getDriversByTeam,
         getDriverById,
     };
 })();

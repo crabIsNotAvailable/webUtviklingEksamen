@@ -4,9 +4,6 @@ import TeamService from "../services/TeamService";
 import DriverService from "../services/DriverService";
 
 const TeamList = ({ teams, setTeams }) => {
-  const [updatedTeamId, setUpdatedTeamId] = useState({});
-  const [isUpdateVisible, setIsUpdateVisible] = useState(false);
-
   const handleDeleteTeam = async (id) => {
       try {
           await TeamService.deleteTeam(id);
