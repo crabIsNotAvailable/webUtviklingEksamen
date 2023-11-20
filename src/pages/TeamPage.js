@@ -35,8 +35,8 @@ const TeamPage =() => {
     getAllTeams();
   }, []);
   return (
-    <div className="container mx-auto mt-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div className="teamContainer mx-auto mt-8">
+        <div className="grid grid-cols-1 mdgrid-cols-2 gap-4">
             <div>
                 <AddTeam onAddTeam={addTeam} />
             </div>

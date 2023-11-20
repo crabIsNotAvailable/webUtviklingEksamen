@@ -12,11 +12,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h3 {
+  color: white;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+
+
+
+.customFont {
+  font-family: Formula1Font;
+  font-size: 2vw;
+}
 
 .driverbackground {
 color: whitesmoke;
@@ -28,10 +41,12 @@ color: whitesmoke;
   
 }
 
-.teambackground {
-  color: rgb(7, 7, 7);
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-  }
+
+
+.teamContainer {
+  width: 80vw;
+}
+
+@font-face {
+  font-family: Formula1Font; src: url(assets/Formula1.ttf) format("truetype");
+}

@@ -18,7 +18,7 @@ const TeamList = ({ teams, setTeams }) => {
   return (
       <div>
       <h1 className="text-white text-xl mb-4">Teams</h1>
-          <div className="grid grid-cols-1  p-4">
+          <div className="grid grid-cols-2 gap-4">
           {teams.map((team,) => (
               <div key={team.id}>
                   <TeamItem team={team}></TeamItem>

@@ -28,18 +28,20 @@ const DriverImage = ({ team }) => {
   });
 
   return (
-    <div class="flex place-self-end">
+    <div class="flex justify-between w-full bg-black place-self-center">
+       <img class="w-80" src="DriverSilhouette.png" alt="Silhouette of a driver"></img>
+       <div class="flex flex-1 justify-center items-end ml-48">
       {drivers.map((driver) => (
-        <div key={driver.id}>
+        <div class="bg-black " key={driver.id}>
+          <p class="text-white">{driver.name}</p>
           <img
-            className="w-60 h-32"
+            className="w-40"
             src={`${image_url}/${driver.imageName}`}
             alt={`${driver.name}`}
           />
-          <p>{driver.name}</p>
-          {/* Add other driver details you want to display */}
         </div>
       ))}
+       </div>
     </div>
   );
 };
