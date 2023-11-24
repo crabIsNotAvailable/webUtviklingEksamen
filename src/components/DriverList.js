@@ -1,4 +1,4 @@
-import DriverItem from "./DriverItem";
+import {DriverItem, DriverUnique} from "./DriverItem";
 import { useState } from "react";
 import UpdateDriver from "./UpdateDriver";
 import DriverService from "../services/DriverService";

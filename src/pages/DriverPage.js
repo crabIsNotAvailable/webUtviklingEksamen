@@ -6,12 +6,10 @@ import DriverService from '../services/DriverService';
 
 const DriverPage = () => {
     const [drivers, setDrivers] = useState([]);
-    const [allDrivers, setAllDrivers] = useState([]);
 
     const getAllDrivers = async () => {
         const response = await DriverService.getAllDrivers();
         setDrivers(response);
-        setAllDrivers(response);
     };
 
     const addDriver = (newDriver) => {
@@ -19,7 +17,7 @@ const DriverPage = () => {
     };
 
     const getDriverById = async (driverId) => {
-        const foundDriver = allDrivers.find((driver) => driver.id === parseInt(driverId));
+        const foundDriver = drivers.find((driver) => driver.id === parseInt(driverId));
         if (foundDriver != null) {
             setDrivers([foundDriver]);
         } else {

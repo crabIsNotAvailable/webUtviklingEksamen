@@ -4,6 +4,7 @@ import "./App.css";
 import DriverPage from "./pages/DriverPage";
 import TeamPage from "./pages/TeamPage";
 import RacesPage from "./pages/RacesPage";
+import UniqueDriverPage from "./pages/UniqueDriverPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/driver" element={<DriverPage />} />
           <Route path="/teams" element={<TeamPage />} />
           <Route path="/races" element={<RacesPage />} />
+          <Route path="/driver/:id" element={<UniqueDriverPage />} />
           <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </BrowserRouter>
